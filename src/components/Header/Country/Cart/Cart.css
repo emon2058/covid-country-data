@@ -1,0 +1,14 @@
+.cart{
+    background-color: white;
+    margin-top: 20px;
+    width: 90%;
+    padding: 5px 10px;
+}
+.display-name{
+    margin: 10px 0;
+    background: aliceblue;
+    padding: 4px 10px;
+    width: 90%;
+    border-radius: 10px;
+    text-align: center;
+}

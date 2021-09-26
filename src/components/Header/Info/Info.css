@@ -1,0 +1,8 @@
+.info-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.country-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}

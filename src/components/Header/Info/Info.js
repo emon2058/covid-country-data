@@ -1,13 +1,33 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import './Info.css'
 import Cart from '../Country/Cart/Cart';
 import Country from '../Country/Country';
 
 const Info = () => {
+    const [info,setInfo] = useState([]);
+    const[cart,setCart] = useState([]);
+    useEffect(()=>{
+        fetch('./data.JSON')
+        .then(res => res.json())
+        .then(data => setInfo(data))
+    },[])
+    const addToCart = (country)=>{
+        const newCart = [...cart,country]
+        setCart(newCart);
+        console.log(newCart);
+    }
     return (
-        <div>
-            <h1>This is info</h1>
-            <Country></Country>
-            <Cart></Cart>
+        <div className="info-container">
+            <div className="country-container">
+                {info.map(country => <Country
+                key ={country.name}
+                country={country}
+                addToCart={addToCart}
+                ></Country>)}
+            </div>
+            <div>
+                <Cart cart={cart}></Cart>
+            </div>
         </div>
     );
 };

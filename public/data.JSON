@@ -56,14 +56,6 @@
         "population": 73394863
     },
     {
-        "img": "https://www.worldometers.info/img/flags/small/tn_us-flag.gif",
-        "name": "United States",
-        "totalCases": 43725604,
-        "totalDeaths": 706058,
-        "totalRecovered": 33162044,
-        "population": 333394863
-    },
-    {
         "img": "https://www.worldometers.info/img/flags/small/tn_ir-flag.gif",
         "name": "Iran",
         "totalCases": 5533520,
@@ -102,14 +94,6 @@
         "totalDeaths": 138653,
         "totalRecovered": 4423988,
         "population": 83394863
-    },
-    {
-        "img": "https://www.worldometers.info/img/flags/small/tn_us-flag.gif",
-        "name": "United States",
-        "totalCases": 43725604,
-        "totalDeaths": 706058,
-        "totalRecovered": 33162044,
-        "population": 333394863
     },
     {
         "img": "https://www.worldometers.info/img/flags/small/tn_id-flag.gif",
